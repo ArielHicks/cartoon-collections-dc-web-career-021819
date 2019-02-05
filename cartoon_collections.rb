@@ -1,5 +1,4 @@
 def roll_call_dwarves(names)
-  hash = Hash.new
   names.each_with_index {|names, index|}
 end
 
