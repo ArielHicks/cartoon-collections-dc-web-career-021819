@@ -2,7 +2,7 @@ def roll_call_dwarves(names)
   names.each_with_index {|name, index| puts "#{index + 1}#{name}"}
 end
 
-def summon_captain_planet(array)
+def summon_captain_planet(planeteer_calls)
   nu_array = []
   i = 0
   while i < array.length
