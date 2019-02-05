@@ -1,8 +1,6 @@
 def roll_call_dwarves(names)
   hash = Hash.new
-  names.each_with_index {|names, index|
-    hash[item] = index
-  }
+  names.each_with_index {|names, index|}
 end
 
 def summon_captain_planet# code an argument here
