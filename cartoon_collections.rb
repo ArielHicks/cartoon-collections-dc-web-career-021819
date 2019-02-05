@@ -10,7 +10,8 @@ def summon_captain_planet(array)
   planeteer_calls
 end
 
-def long_planeteer_calls# code an argument here
+def long_planeteer_calls(array)
+  array.length <= 4
   # Your code here
 end
 
