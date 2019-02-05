@@ -4,6 +4,7 @@ end
 
 def summon_captain_planet(array)
   planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
+  
   planeteer_calls.map {|element| puts "#{element}"}
 end
 
